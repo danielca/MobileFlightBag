@@ -1,0 +1,18 @@
+{
+  "startup":{
+    "display":"Startup",
+    "index":0,
+    "items":{
+      "ex1":"Display 1",
+      "ex2":"Display 2"
+    }
+  },
+  "pre-flight":{
+    "display":"preflight",
+    "index":1,
+    "items":{
+      "ex3":"display 3",
+      "ex4":"display 4"
+    }
+  }
+}
