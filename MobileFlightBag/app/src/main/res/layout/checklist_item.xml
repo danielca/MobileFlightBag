@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -14,12 +13,14 @@
         android:layout_height="match_parent"
         android:gravity="start"
         android:textSize="25sp"
-        android:text="Sample Item"/>
+        android:id="@+id/check_item"
+        android:text="@string/sample_item"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="end"
         android:textSize="25sp"
-        android:text="Sample Check"/>
+        android:id="@+id/check_action"
+        android:text="@string/sample_check"/>
 
 </LinearLayout>

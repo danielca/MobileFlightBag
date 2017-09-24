@@ -1,15 +1,15 @@
 package com.flightbag.mobileflightbag.Model;
 
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.Data;
 
 /**
- * Created by casey on 2016-03-29.
- * 
+ * Created by casey on 2016-03-28.
  */
 @Data
-public class CheckListItem{
+public class CheckListSelectionItem {
 
     @JsonProperty("display_name")
     private String displayName;
